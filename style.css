@@ -1,0 +1,55 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Heading styles */
+h1 {
+    background: #0056b3;
+    /* Dark blue background */
+    color: #fff;
+    /* White text color */
+    padding: 20px 0;
+    /* Padding above and below the text */
+    text-align: center;
+    /* Center-align text */
+    margin-bottom: 40px;
+    /* Space below the heading */
+}
+
+/* Paragraph styles */
+p {
+    width: 80%;
+    max-width: 800px;
+    /* Maximum width of paragraphs */
+    margin: 20px auto;
+    /* Center paragraphs horizontally and add space above and below */
+    font-size: 18px;
+    /* Slightly larger text for readability */
+    background: #fff;
+    /* White background for contrast */
+    padding: 15px 20px;
+    /* Padding inside paragraphs */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    border-radius: 8px;
+    /* Rounded corners for a soft look */
+}
+
+/* Link styles */
+a {
+    color: #0056b3;
+    /* Dark blue text color to match heading */
+    text-decoration: none;
+    /* No underline */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover for clarity */
+}
